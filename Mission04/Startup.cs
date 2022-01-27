@@ -26,6 +26,7 @@ namespace Mission04
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            // Set up the connection strings
             services.AddDbContext<MovieContext>(options =>
             {
                 options.UseSqlite(Configuration["ConnectionStrings:MainConnection"]);

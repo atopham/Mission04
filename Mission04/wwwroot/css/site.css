@@ -7,6 +7,17 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+label {
+    font-size: 20px;
+    color: darkcyan;
+    width: 150px;
+    display: inline-block;
+}
+
+input{
+    vertical-align:middle;
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;

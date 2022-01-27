@@ -16,6 +16,8 @@ namespace Mission04.Models
         protected override void OnModelCreating(ModelBuilder mb)
         {
             mb.Entity<MovieResponse>().HasData(
+                // pre-fill the database with movies
+                // P.S. If you haven't seen these, you should really make time for them
                 new MovieResponse
                 {
                     MovieId = 1,

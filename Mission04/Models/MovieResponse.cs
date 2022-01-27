@@ -8,6 +8,7 @@ namespace Mission04.Models
 {
     public class MovieResponse
     {
+        // Here is the model that outlines the attributes of the movie objects we submit 
         [Key]
         [Required]
         public int MovieId { get; set; }
